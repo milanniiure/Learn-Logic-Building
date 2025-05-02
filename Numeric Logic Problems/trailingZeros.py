@@ -16,3 +16,16 @@
 # until n//5^k is 0.
 
 
+def count_trailing_zeros(n):
+    count = 0
+    i = 5
+
+    while n//i > 0:
+        count = count + n//i
+        i = i*5
+    
+    return count
+
+number = int(input("Enter a number to determine trailing zeros in the factorial of the number:"))
+zeros = count_trailing_zeros(number)
+print(f"{zeros} trailing zeros appeared in the {number}!")
