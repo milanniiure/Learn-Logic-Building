@@ -9,11 +9,12 @@ def is_prime(n):
     
     return True  # if no divisor found then its a prime number
 
-number = int(input("Eneter a number to check if it is a prime number or not: "))  # user input
+number = int(input("Enter a number to check if it is a prime number or not: "))  # user input
 
 # call the function
 if is_prime(number):
     print(f"{number} is a prime number.")
+    
 else:
     print(f"{number} is not a prime number")
 
