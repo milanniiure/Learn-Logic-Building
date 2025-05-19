@@ -39,3 +39,13 @@ print(f"The sum of {number} digits becomes {single} as single digit.")
 # now, num = 0, Inner while loop stops, because to continue loop (num > 0) was the condition
 # now outer loop is still on, num = sum [ num = 9] in outer loop
 # outer loop also stops cause, it has condition num should be greater than or equal to 10 
+
+
+# steps:
+# make a function with a parameter. eg def sumUntilZero
+# while loop to check for number only greater than 10. eg while num>=10:
+# store num % 10 in digit var eg. digit  = num % 10
+# store sum + digit in sum var eg. sum = sum + digit
+# store num // 10 in num var   eg. num = num // 10
+# store sum in num var         eg. num = sum
+# return num on while loop
