@@ -44,6 +44,8 @@ print(f"The sum of {number} digits becomes {single} as single digit.")
 # steps:
 # make a function with a parameter. eg def sumUntilZero
 # while loop to check for number only greater than 10. eg while num>=10:
+# initialize sum var          eg. sum = 0
+# while loop to make number greater than zero     eg. while num > 0:
 # store num % 10 in digit var eg. digit  = num % 10
 # store sum + digit in sum var eg. sum = sum + digit
 # store num // 10 in num var   eg. num = num // 10
